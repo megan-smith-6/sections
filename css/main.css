@@ -11,6 +11,7 @@ html {
 
 section {
   padding: 2em 0 0;
+  text-align: center;
 }
 
 body {
@@ -51,7 +52,6 @@ p {
 }
 
 .btn {
-  text-align: center;
   display: inline-block;
   color: #333;
   background-color: #eee9de;

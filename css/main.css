@@ -12,5 +12,15 @@ h1 {
 }
 
 img {
-
+  display: block;
+  margin: 0 auto 1rem;
 }
+
+a{
+  background-color: #eee9de;
+  border-color: #333;
+}
+
+a:hover {
+  background-color: #666;
+  color: #fff;

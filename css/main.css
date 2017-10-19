@@ -1,14 +1,15 @@
 html {
   box-sizing: border-box;
   background-color: #eee9de;
+  font-family: "Lato", sans-serif;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
 
-h1 {
-  font-family: "Lato", sans-serif;
+h2 {
+  display: block;
 }
 
 img {
@@ -16,11 +17,18 @@ img {
   margin: 0 auto 1rem;
 }
 
-a{
+a {
+  display: inline-block;
+  color: #333;
   background-color: #eee9de;
-  border-color: #333;
+  margin: 1.5rem 0;
+  padding: .4em .75em .5em;
+  border-radius: 4px;
+  border: 3px solid black;
+  text-decoration: none;
 }
 
 a:hover {
   background-color: #666;
   color: #fff;
+  border: none;

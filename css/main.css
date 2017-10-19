@@ -9,20 +9,30 @@ html {
   box-sizing: inherit;
 }
 
+section {
+  padding: 2em 0 0;
+}
+
 body {
   margin: 0;
 }
 
-section {
-  margin: 1rem;
+div {
+  display: inline-block;
+  padding: 1em;
+  vertical-align: middle;
 }
 
 img {
   display: block;
   width: 100%;
   max-width: 25em;
-  padding: 2em 0;
-  vertical-align: middle;
+  text-align: center;
+}
+
+.second-div {
+  display: inline-block;
+  padding: 1em 1.1em 2em;
 }
 
 h2 {
@@ -46,7 +56,7 @@ p {
   color: #333;
   background-color: #eee9de;
   margin: 0 0 2em;
-  padding: .6em .95em .6em;
+  padding: .6em 1.15em;
   border-radius: 8px;
   border: 3px solid #333;
   text-decoration: none;

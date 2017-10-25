@@ -2,20 +2,20 @@ html {
   box-sizing: border-box;
   background-color: #eee9de;
   font-family: Lato, sans-serif;
-  line-height: 1.5;
+  line-height: 1.54;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
 
+body {
+  margin: 0;
+}
+
 section {
   padding: 2em 0 0;
   text-align: center;
-}
-
-body {
-  margin: 0;
 }
 
 div {
@@ -45,10 +45,11 @@ h2 {
 
 p {
   display: block;
-  max-width: 25em;
+  max-width: 24em;
   text-align: left;
   padding: 1.5em 0;
   margin: 0;
+  font-size: .99rem;
 }
 
 .btn {

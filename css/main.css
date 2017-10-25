@@ -22,7 +22,6 @@ div {
   display: inline-block;
   padding: 1em;
   vertical-align: middle;
-  text-align: center;
 }
 
 img {
@@ -36,7 +35,6 @@ img {
   display: inline-block;
   padding: 1em 1.1em 2em;
   text-align: left;
-  max-width: 24.1em;
 }
 
 h2 {
@@ -59,7 +57,7 @@ p {
   display: inline-block;
   color: #333;
   background-color: #eee9de;
-  padding: .5em .9em;
+  padding: .5em 1em;
   border-radius: 8px;
   border: 3px solid #333;
   text-decoration: none;
